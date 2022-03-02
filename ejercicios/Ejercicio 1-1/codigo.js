@@ -15,17 +15,17 @@ saludar("dyland")
 
 let frase = `Hola ${nombre}! Como estas?`;
 
-function saludar(nombre){
+function saludar(nombre){ //ups
     let frase = `Hola ${nombre}! Como estas?`;
     document.write(frase)
 }
 
-const saludar = function(nombre){
+const saludar = function(nombre) {
     let frase = `Hola ${nombre}! Como estas?`;
     document.write(frase)
 }
 
-const saludar = nombre=>{
+const saludar = nombre => {
     document.write(frase)
 }
 

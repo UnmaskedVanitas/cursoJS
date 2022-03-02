@@ -1,0 +1,46 @@
+{
+  "env": {
+      "commonjs": false, 
+      "browser": true,
+      "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+  },
+  "rules": {
+      "quotes": ["error", "single"],
+      "semi": ["error", "never"],
+      "prefer-const": "error",
+      "no-const-assign": "error",
+      "no-var": "error",
+      "no-new-object": "error",
+      "object-shorthand": "error",
+      "quote-props": ["error", "as-needed"],
+      "prefer-object-spread": "error",
+      "no-array-constructor": "error",
+      "array-callback-return": "error",
+      "prefer-template": "error",
+      "template-curly-spacing": ["error", "never"],
+      "no-eval": "error",
+      "func-style": ["error", "expression"],
+      "no-loop-func": "error",
+      "prefer-rest-params": "error",
+      "default-param-last": ["error"],
+      "no-new-func": "error",
+      "space-before-function-paren": ["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}],
+      "space-before-blocks": "error",
+      "no-param-reassign": "error",
+      "prefer-spread": "error",
+      "function-paren-newline": ["error", { "minItems": 4 }],
+      "prefer-arrow-callback": "error",
+      "arrow-spacing": "error",
+      "arrow-parens": ["error", "always"],
+      "arrow-body-style": ["error", "as-needed"],
+      "no-confusing-arrow": "error",
+      "implicit-arrow-linebreak": ["error", "beside"],
+      "no-useless-constructor": "error",
+      "no-dupe-class-members": "error"
+  }
+}

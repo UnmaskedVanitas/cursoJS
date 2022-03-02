@@ -19,7 +19,7 @@ for (let i = 0; dinero >= precioBoleto; i++) {
     total = total + precioBoleto
     dinero = dinero - precioBoleto
     if (numBoletos === 3) {
-        break;
+        break
     }
 }
 document.write(`te alcanza para ${numBoletos} boletos de loteria y tu vuelto es ${dinero} usd`)
