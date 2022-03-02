@@ -23,4 +23,3 @@ for (let i = 0; dinero >= precioBoleto; i++) {
     }
 }
 document.write(`te alcanza para ${numBoletos} boletos de loteria y tu vuelto es ${dinero} usd`)
-
