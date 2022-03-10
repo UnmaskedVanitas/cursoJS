@@ -49,10 +49,7 @@ class CelularAltaGama {
         color,peso,tamaño,rdc,ram
 ) {
         }
-    
-
-}
-
+    }
 celular1 = new Celular(
 'rojo','150g','5 pulgadas','HD','1GB'
 )
