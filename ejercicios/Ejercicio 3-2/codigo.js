@@ -46,4 +46,9 @@ class App {
             alert('app desinstalada')
         }
     }
+    appInfo() {
+        return `
+        Descargas: <b>${this.descargas}</b></br>
+        Puntuacion`
+    }
 }
