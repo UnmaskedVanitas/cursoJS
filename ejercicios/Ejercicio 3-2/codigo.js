@@ -46,6 +46,9 @@ class App {
             alert('app desinstalada')
         }
     }
+    formatear() {
+        if (this.necesitaFormato == true)
+    }
     appInfo() {
         return `
         Descargas: <b>${this.descargas}</b></br>
