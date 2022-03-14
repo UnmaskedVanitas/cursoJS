@@ -39,6 +39,10 @@ class App {
             this.instalada = true
             alert('app instalada')
         }
+    isntalarapp() {
+            if (this.instalada == false) {
+                this.instalada = true
+                alert('app instalada')
     }
     desinstalar() {
         if (this.instalada == true) {
