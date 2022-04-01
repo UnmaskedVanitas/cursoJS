@@ -25,12 +25,23 @@ especie,edad,color,raza
 }
 
 
-const perro = new Perro(
-'perro',5,'verde','doberman'
-)
-const gato = new Animal('gato',2,'negro')
-const pajaro = new Animal('pajaro',1,'amarillo')
+// const perro = new Perro(
+// 'perro',5,'verde','doberman'
+// )
+// const gato = new Animal('gato',2,'negro')
+// const pajaro = new Animal('pajaro',1,'amarillo')
 
-perro.verInfo()
-gato.verInfo()
-pajaro.verInfo()
+// perro.verInfo()
+// gato.verInfo()
+// pajaro.verInfo()
+class Gato extends Animal {            // Herencia
+    constructor(
+especie,edad,color,raza
+) {
+        super(especie,edad,color)
+        this.raza = raza
+    }
+    ladrar() {
+        alert('miau!')
+    }
+}
