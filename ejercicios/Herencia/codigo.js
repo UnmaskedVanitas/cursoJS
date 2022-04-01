@@ -36,12 +36,3 @@ especie,edad,color,raza
 // pajaro.verInfo()
 class Gato extends Animal {            // Herencia
     constructor(
-especie,edad,color,raza
-) {
-        super(especie,edad,color)
-        this.raza = raza
-    }
-    ladrar() {
-        alert('miau!')
-    }
-}
