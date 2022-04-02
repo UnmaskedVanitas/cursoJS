@@ -34,5 +34,4 @@ especie,edad,color,raza
 // perro.verInfo()
 // gato.verInfo()
 // pajaro.verInfo()
-class Gato extends Animal {            // Herencia
-    constructor(
+
