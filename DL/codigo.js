@@ -3,7 +3,7 @@
 // document.write(frase)
 // }
 
-// saludar("Italo") 
+// saludar("Andrea") 
 
 const saludar = (nombre)=>{
     let frase = `Hola ${nombre}! Como estas?`;
@@ -29,4 +29,4 @@ const saludar = nombre => {
     document.write(frase)
 }
 
-saludar("Andrea")
+saludar("Andrea que te parece si vamos)
