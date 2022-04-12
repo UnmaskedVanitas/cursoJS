@@ -29,4 +29,4 @@ const saludar = nombre => {
     document.write(frase)
 }
 
-saludar("Andrea que te parece si vamos)
+saludar("Andrea que te parece si vaos)
