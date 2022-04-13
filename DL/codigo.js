@@ -1,32 +1,9 @@
-// function saludar(nombre){
-// const frase = `Hola ${nombre}!, como estas?` ;
-// document.write(frase)
-// }
-
-// saludar("Andrea") 
-
-const saludar = (nombre)=>{
-    let frase = `Hola ${nombre}! Como estas?`;
-        document.write(frase)
-}
-
-saludar("Andrea")
-saludar("dyland")
-
-let frase = `Hola ${nombre}! Como estas?`;
-
-function saludar(nombre){ //ups
-    let frase = `Hola ${nombre}! Como estas?`;
-    document.write(frase)
-}
-
-const saludar = function(nombre) {
-    let frase = `Hola ${nombre}! Como estas?`;
-    document.write(frase)
-}
-
-const saludar = nombre => {
-    document.write(frase)
-}
-
-saludar("Andrea que te parece si vaos)
+<body>
+    <h1>Hola ! Soy Vanitas</h1>
+    <h2>Esta es mi primera pagina</h2>
+    <h3>Habilidades:</h3>   
+    <p>muchas como para escribirlas</p>
+    <h3>Educacion</h3>
+    <p>La que venga</p>
+    <h6>sere el mejor!</h6>
+</body>
