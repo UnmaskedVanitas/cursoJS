@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+.iguanaheader img {
+    width: 100%;
+}
+
+.contenido {
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+    
+}
+
+.text {
+    color: white;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: solid yellow;
+}
+.iguanaright {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+
+
+}
