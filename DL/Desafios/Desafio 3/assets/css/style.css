@@ -16,24 +16,27 @@ h1 {
     width: 100%;
     height: 350px;
     border: 1px solid white;
+    align-content: center;
     
 }
 
 .text {
+    width: 45%;
     color: white;
-    float: left;
     margin: 10px;
     padding: 10px;
     display: inline-block;
-    border: solid yellow;
+    border: 1px solid yellow;
 }
 .iguanaright {
-    width: 300px;
-    height: 200px;
+    width: 45%;
     margin: 10px;
     padding: 10px;
     display: inline-block;
 
-
-
+}
+.features {
+    color: white;
+    border: 1px solid red;
+    background-color: black;
 }
