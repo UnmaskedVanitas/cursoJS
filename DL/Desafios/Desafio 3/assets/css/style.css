@@ -10,6 +10,7 @@ h1 {
 }
 .iguanaheader img {
     width: 99%;
+    align-items: center;
 }
 
 .contenido {
@@ -17,6 +18,8 @@ h1 {
     height: 350px;
     border: 1px solid white;
     align-content: center;
+    margin-top: 50px;
+    padding: 100px;
     
 }
 
@@ -29,10 +32,11 @@ h1 {
     border: 1px solid yellow;
 }
 .iguanaright {
-    width: 35%;
+    width: 25%;
     margin: 10px;
     padding: 10px;
-    display: inline-block;
+    float:right;
+    margin-right: 100px;
 
 }
 .features {
