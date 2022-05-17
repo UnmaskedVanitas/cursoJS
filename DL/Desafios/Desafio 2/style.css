@@ -1,0 +1,40 @@
+body{
+    background-color:black ;
+    color: gray;
+    margin: 70px 70px 70px 140px;
+    
+}
+
+#titular{
+    height:240px;
+    border: 3px solid green;
+    overflow: hidden;
+    display:block;
+}
+#imagen1 {
+    float: right;
+    clear: left;
+}
+#texto1{
+    margin: auto;
+    border: 3px solid green;
+    padding: 70px;
+}
+.producto{
+    text-align: center;
+    padding:70px;
+    overflow: hidden;
+    background-color:gray ;
+    color: black;
+    border: 3px solid green;
+}
+
+.imagenproducto{
+    align-items:center;
+    display: inline-block;
+    float:left;
+    clear:left;
+}
+.textoproducto{
+    line-height: 250px;
+}
