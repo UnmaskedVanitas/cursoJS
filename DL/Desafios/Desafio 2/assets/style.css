@@ -6,8 +6,10 @@ body{
 }
 
 #titular{
+    margin-right: 90px;
+    background-color: white;
     height:240px;
-    border: 3px solid green;
+    border: 3px solid black;
     overflow: hidden;
     display:block;
 }
@@ -17,16 +19,17 @@ body{
 }
 #texto1{
     margin: auto;
-    border: 3px solid green;
+    border: 3px solid black;
     padding: 70px;
 }
 .producto{
+    margin-right: 90px;
     text-align: center;
     padding:70px;
     overflow: hidden;
     background-color:gray ;
     color: black;
-    border: 3px solid green;
+    border: 3px solid black;
 }
 
 .imagenproducto{
@@ -36,5 +39,11 @@ body{
     clear:left;
 }
 .textoproducto{
-    line-height: 250px;
+    font-style: oblique;
+    font-size: 30px;
+    line-height: 160px;
+}
+#pie{
+    font-size: smaller;
+    text-align:center;
 }
