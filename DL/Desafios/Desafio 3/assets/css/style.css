@@ -1,59 +1,73 @@
+*{
+    border: 1px dotted red;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Raleway', sans-serif;
 
 }
-
-h1 {
+#titulo{
+    font-size: 50px;
     color: white;
     text-align: center;
 }
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+
 .iguanaheader img {
-    width: 99%;
-    align-items: center;
+    width: 100%;
 }
 
 .contenido {
     width: 100%;
     height: 350px;
     border: 1px solid white;
-    align-content: center;
-    margin-top: 50px;
-    padding: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     
 }
 
 .text {
-    width: 45%;
+    /* font-family:; */
+    font-size: 16px;
+    width: 475px;
+    height: 197px;
     color: white;
-    margin: 10px;
-    padding: 10px;
     display: inline-block;
-    border: 1px solid yellow;
+    margin-right: 106px;
 }
 .iguanaright {
-    width: 25%;
-    margin: 10px;
-    padding: 10px;
-    float:right;
-    margin-right: 100px;
-
+    width: 399px;
+    height: 237px;
 }
 .features {
     color: white;
     border: 1px solid red;
-    background-color: black;
+    background-color: #1E1A13;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#headerfeatures{
+    width: 100%;
     text-align: center;
+    font-size: 40px;
+    margin-top:75px;
+    font-weight: 600;
 }
-.f1 {
-    display:inline-block;
-    width: 30%;
+.featurescontent {
+    width:20%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
-.f2 {
-    display:inline-block;
-    width: 30%;
-}
-.f3 {
-    display:inline-block;
-    width: 30%;
+.featurescontent i{
+    font-size: xx-large;
 }
