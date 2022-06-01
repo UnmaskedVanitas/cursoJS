@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+}
+
+.box{
+    display:flex;
+    justify-content: space-around;
+}
+.box img{
+    width: 250px;
+}
+menu{
+    background-color: darkgrey;
+    width: 20%;
+    min-height: 100vh;
+}
+.menu{
+    list-style-type: none;
+}
