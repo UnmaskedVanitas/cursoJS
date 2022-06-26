@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        'header header header header header'
+        'menu main main main main'
+        'footer footer footer footer footer';
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 85px 1fr 45px;
+
+}
+
+
+.logo {
+    height: 85px;
+    float: left;
+    vertical-align: middle;
+    margin-left: 50px;
+
+}
+
+.header {
+    grid-area: header;
+    font-family: 'Fira sans';
+
+}
+
+.nombre {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.header {
+    background-color: #20D6A0;
+}
+
+.menu {
+    grid-area: menu;
+    font-family: 'Fira sans';
+    background-color: #BC25FA;
+    padding: 0;
+    margin: 0;
+
+}
+.categorias{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.tipo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.main {
+    grid-area: main;
+    font-family: 'Fira sans';
+    background-color: #8F7CE1;
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.main .producto {
+    margin-top: 10px;
+    margin-left: 20px;
+    border: solid 1px black;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+
+.main .producto .main-caja {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+.main-img {
+    margin-top: 10px;
+    width: 60%;
+    height: 200px;
+
+
+}
+
+.footer {
+    grid-area: footer;
+    font-family: 'Fira sans';
+    background-color: #474954;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.derechos {
+    color: #9e788f;
+
+}
