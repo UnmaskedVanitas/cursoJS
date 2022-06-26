@@ -18,10 +18,11 @@
 
 
 .logo {
-    height: 85px;
+    height: 75px;
     float: left;
     vertical-align: middle;
     margin-left: 50px;
+    margin-top: 5px;
 
 }
 
@@ -50,8 +51,9 @@
 
 }
 .categorias{
-    padding-top: 10px;
-    padding-left: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
 }
 .tipo {
     display: flex;
@@ -101,7 +103,9 @@
 
 
 }
-
+.main-precio {
+    margin-top: 10px;
+}
 .footer {
     grid-area: footer;
     font-family: 'Fira sans';
@@ -110,7 +114,7 @@
     vertical-align: middle;
 }
 
-.derechos {
-    color: #9e788f;
-
+.footer{
+    padding: 15px;
+    color: white;
 }
