@@ -1,0 +1,7 @@
+#list-tarea{
+    list-style: none;
+}
+.iconos{
+    display: flex;
+    justify-content: flex-end;
+}
