@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:ital@1&display=swap');
+.body {
+    width: 100%;
+    height: 100vh;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.contenedor {
+
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stk1 {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.stk2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.stk3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultado{
+    text-align: center;
+}
+.total{
+    font-family: 'Comfortaa', cursive;
+    
+}

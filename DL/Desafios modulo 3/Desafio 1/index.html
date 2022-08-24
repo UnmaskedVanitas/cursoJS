@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio 1</title>
+</head>
+<body>
+
+    <div class="flex-container d-flex">
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/img/pc gamer.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pc Gamer Asus RTX3090</h5>
+                    <input id="cantidad" type="number" placeholder="Cantidad">
+                    <input id="color" type="text" placeholder="Color">
+                    <p>PRECIO: $<span id="precio">999000</span></p>
+                    <button class="btn btn-primary" 
+                    onclick="
+                    cantidad = document.querySelector('#cantidad');
+                    color = document.querySelector('#color');
+                    precio = document.querySelector('#precio');
+                    precioTotal = document.querySelector('#preciototal');
+                    cantidadTotal = document.querySelector('#totalcantidad');
+                    finalColor = document.querySelector('.color-circle')
+                    precioTotal.innerHTML = Number(cantidad.value) * Number(precio.innerHTML);
+                    cantidadTotal.innerHTML = cantidad.value;
+                    finalColor.style.backgroundColor = color.value;
+                    ">Calcular total</button>
+                </div>
+    </div>
+        <div class="container">
+            <h1>TOTAL: $<span id="preciototal">0</span></h1>
+            <h1>Cantidad: <span id="totalcantidad">0</span></h1>
+                <div class="flex-container d-flex"></div>
+                    <h1 class="flex-container d-flex">
+                    Color:
+                        <div class="color-circle flex-container d-flex">
+                        </div>  
+                    </h1>
+                </div>
+        </div>
+    </div> 
+<script src="assets/js/script.js"></script>
+</body>
+</html>

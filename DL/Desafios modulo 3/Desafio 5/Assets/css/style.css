@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Fira+Sans:wght@200&family=Lato:wght@300&family=Mukta&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+.titulo {
+    font-family: 'Bitter', serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contador {
+    align-items: center;
+    font-family: 'Bitter', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.tareas {
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.resumen {
+    align-items: center;
+    font-family: 'Bitter', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.listatareas {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Bitter', serif;
+}
+
+.input {
+    width: 250px;
+}

@@ -1,0 +1,13 @@
+.container {
+    margin-top: 10%;
+
+}
+.color-circle {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 4px solid black;
+}
