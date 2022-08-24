@@ -66,3 +66,17 @@ var chart = new Chart(miCanvas,{
         ]
     }
 })
+
+const config = {
+    type: tipoGrafico,
+    data: {
+        datasets: [
+            {
+                label: titulo,
+                backgroundColor:
+                    colorDeLinea,
+            }
+        ]
+    }
+};
+return config
