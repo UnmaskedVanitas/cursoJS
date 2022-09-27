@@ -78,5 +78,5 @@ const config = {
             }
         ]
     }
-};
+}
 return config

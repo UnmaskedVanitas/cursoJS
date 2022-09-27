@@ -31,27 +31,25 @@ const Buscador = () => {
     },[])
 
     return(
-        <div>
+        <div className="container">
             <input value={search} onChange={searcher} type="text" placeholder='Buscar Personaje' className='form-control' />
             <table className='table table-striped table-hover mt-5 shadow-lg'>
                 <div>
                     <p className='subtitulo'>
-                        <p>Estudiantes</p>
+                        <p className="bold">Estudiantes</p>
                     </p>
                 </div>
-                <main className="main">
+                <main className="main" background="https://1000marcas.net/wp-content/uploads/2020/02/Hogwarts-emblema.jpg">
                     <div className= "card-contenedor">
                         {results.map((characters) => (
                             <div className="card" key={characters.id}>
                                 <div>
-                                <img className="card" width={150} src={characters.image}/>
+                                <img className="card" width={150} src={characters.image} />
                                 </div>
                                 <div>Nombre: {characters.name}</div>
                                 <div>Casa: {characters.house}</div>
                                 <div>Especie: {characters.species}</div>
                                 <div>Genero: {characters.gender}</div>
-                                {/* <div>Fecha de N.: {characters.dateOfBirth}</div>
-                                <div>Patronus: {characters.patronus}</div> */}
                             </div>
                         )
 

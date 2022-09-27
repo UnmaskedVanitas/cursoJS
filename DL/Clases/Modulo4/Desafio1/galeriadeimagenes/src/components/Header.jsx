@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const Header = () => {
-    return <h2>{props.titulo}</h2>
-}
-
-export default Header
+    const productName = "Galeria de imagenes React"
+    return <h1 className='titulo m-5'> {productName} </h1>;
+};
+export default Header;
