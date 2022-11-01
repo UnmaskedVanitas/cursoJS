@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.conteiner{
+    margin-left: 170px;
+    
+}
+.texto{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+.pokeimg{
+    width: 150px;
+
+}
+
+.table-fixed{
+    margin-top: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    margin-left: 170px;
+}

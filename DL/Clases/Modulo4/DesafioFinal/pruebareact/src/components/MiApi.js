@@ -36,7 +36,7 @@ const Buscador = () => {
             <table className='table table-striped table-hover mt-5 shadow-lg'>
                 <div>
                     <p className='subtitulo'>
-                        <p className="bold">Estudiantes</p>
+                        <p className="estudiantes">Estudiantes</p>
                     </p>
                 </div>
                 <main className="main" background="https://1000marcas.net/wp-content/uploads/2020/02/Hogwarts-emblema.jpg">

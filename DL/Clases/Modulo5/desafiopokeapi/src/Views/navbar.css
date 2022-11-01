@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.nav-link {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+
+}
+.active{
+    color: darkorange;
+}

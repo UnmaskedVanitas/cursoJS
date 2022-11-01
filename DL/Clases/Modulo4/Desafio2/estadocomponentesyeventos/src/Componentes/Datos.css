@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.form-group{
+    align-items: center;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.form-control{
+    font-family: 'Comfortaa', cursive;
+
+}
+.bajada{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
