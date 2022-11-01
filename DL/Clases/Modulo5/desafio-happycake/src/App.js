@@ -1,8 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Logo from "./Img/Cake.png"
-import Contacto from "./components/Contacto";
-import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+import Home from "./views/Home";
+import Contacto from "./views/Contacto";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
         <Navbar />
 
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </BrowserRouter>
-      <img src={Logo} alt="Logo" />
     </div>
   );
 }

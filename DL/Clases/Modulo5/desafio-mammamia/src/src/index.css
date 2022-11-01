@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +7,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  color: white;
 }
 
 :root {
@@ -13,8 +15,5 @@
   padding: 0;
   box-sizing: border-box;
   min-height: 100vh;
-  background: linear-gradient(45deg, #4e65ff, #d84242)
-}
-
-.image {filter: drop-shadow(0 0 20px #121212)
+  background: black;
 }
